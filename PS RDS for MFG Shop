@@ -1,0 +1,5 @@
+Import-Module RemoteDesktop
+
+New-RDRemoteApp -CollectionName RDS -DisplayName E2MFG_T4_Shop_5 -Alias TSMFG_Shop_5 -FilePath "C:\Program Files\Shoptech E2 Software\Bin\E2 Mfg T4 Shop.lnk" -IconPath "D:\Data\T4 Tool Stuff\T4 Logos\T4Tool.ico" -ShowInWebAccess 1 -UserGroups "sceptre\Domain Users"
+
+New-RDRemoteApp -CollectionName RDS -DisplayName E2MFG_Sceptre_Shop_21 -Alias Sceptre_Shop_21 -FilePath "C:\Program Files\Shoptech E2 Software\Bin\E2 Mfg Shop.lnk" -IconPath "D:\Data\Marketing\Sceptre Logos\Sceptre.ico" -ShowInWebAccess 1 -UserGroups "sceptre\Domain Users"
